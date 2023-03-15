@@ -1,0 +1,129 @@
+body {
+  background-color: black;
+  display: flex;
+  justify-content: center;
+  height: 100vh;
+  box-sizing: border-box;
+  margin: 0;
+}
+
+.clock>div {
+  display: inline-block;
+}
+
+.clock {
+  color: white;
+  align-items: center;
+  justify-content: center;
+  margin: auto;
+  font-size: 70px;
+  font-weight: bold;
+  margin-top: auto;
+  width: 50%;
+  display: flex;
+}
+
+.timer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto;
+  width: 50%;
+  background-color: black;
+  padding: 20px;
+}
+
+.timer-inputs {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.input {
+  width: 60px;
+  height: 40px;
+  text-align: center;
+  font-size: 24px;
+  border: 2px solid white;
+  border-radius: 5px;
+  margin-right: 10px;
+  background-color: black;
+  color: white;
+}
+
+.input::-webkit-outer-spin-button,
+.input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+.input {
+  -moz-appearance: textfield;
+}
+
+.buttons {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.start-btn,
+.stop-btn {
+  width: 80px;
+  height: 40px;
+  font-size: 18px;
+  border: none;
+  border-radius: 5px;
+  margin: 0 10px;
+  background-color: white;
+  color: black;
+  cursor: pointer;
+}
+
+.start-btn:hover,
+.stop-btn:hover {
+  background-color: black;
+  color: white;
+  border: 2px solid white;
+}
+.timer-result{
+  color: white;
+  margin-top: 20px;
+  font-size: 40px;
+
+}
+
+
+.hide {
+  display: none;
+  /* overflow: hidden; */
+}
+.focus{
+  font-size: 150px;
+  justify-content: center;
+  align-items: center;
+}
+.hide-stop{
+  opacity: .7;
+  border-color: white;
+  color: white;
+  background-color: transparent;
+  align-items: baseline;
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  /* right: 10px;
+  bottom: 10px; */
+
+}
+.hide-stop:hover{
+  border-color: white;
+  color: white;
+}
+
+/* .opacity {
+  opacity: .3;
+  background-color: transparent;
+} */
